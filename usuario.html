@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Usuario</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="usuario.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<body>
+
+    <div class="container">
+        <div class="form-group">
+            <label for="userHelp1"><strong>Usuario</strong></label>
+            <input type="text" class="form-control" id="userHelp1" aria-describedby="userlHelp" placeholder="Digite o usuário" required>
+            <small id="userHelp1" class="form-text text-muted">Não compartilhamos seus dados.</small>
+        </div>
+        <div class="form-group">
+            <label for="pwHelp1"><strong>Senha</strong></label>
+            <input type="password" class="form-control" id="pwHelp1" placeholder="Senha" required>
+        </div>
+
+        <button type="button" class="btn btn-dark" onclick="login()"><strong>Login</strong></button>
+    </div>
+
+</body>
+</html>
